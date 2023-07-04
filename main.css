@@ -1,0 +1,59 @@
+body {
+    font-family: Orbitron, sans-serif;
+    background-color: dimgray;
+    color: white;
+}
+
+.navbar {
+    background-color:darkorchid;
+}
+
+.nav .nav-link.active {
+    background-color: white;
+    color: darkorchid;
+}
+
+.text-colored {
+    color: mediumorchid;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: white
+}
+
+li {
+    list-style-type: none;
+}
+
+#inicio, #destaques {
+    background-color:dimgray;
+}
+
+#sobre, #skins {
+    background-color: rgb(87, 87, 87);
+}
+
+.nav-skins .nav-link.active,
+.btn {
+    background-color: darkorchid;
+    color: white;
+}
+
+.nav-skins .nav-link:hover {
+    background-color: darkorchid;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+

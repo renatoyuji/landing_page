@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fw-bold">CS:GO Skins</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex fw-bold">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link">
+                            <i class="bi bi-house-door"></i>
+                            Início
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#destaques" class="nav-link">
+                            <i class="bi bi-postage"></i>
+                            Destaques
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skins" class="nav-link">
+                            <i class="bi bi-shop-window"></i>
+                            Skins
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="inicio">
+            <div id="media-celular" class="container w-75 w-sm-100">
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img class="w-100" src="images/slides/slide1.webp" alt="Skin de M4A1-S">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="w-100" src="images/slides/slide2.jpg" alt="Skin de AWP">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="w-100" src="images/slides/slide3.jpg" alt="Skin de USP-S">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div id="sobre" class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/sobre.webp" class="d-block w-100 rounded" alt="Skin de M4A4">
+                        </div>
+                        <div class="col-md-7">
+                            <h2>Sobre</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quam tenetur magni. Ipsam possimus voluptatibus laboriosam assumenda totam ullam facilis. Tempora ipsam iusto ullam pariatur illo mollitia placeat quisquam omnis.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quam tenetur magni. Ipsam possimus voluptatibus laboriosam assumenda totam ullam facilis. Tempora ipsam iusto ullam pariatur illo mollitia placeat quisquam omnis.</p>
+                            <ul class="p-0">
+                                <li>
+                                    <i class="bi bi-cart"></i>
+                                    Compre
+                                </li>
+                                <li>
+                                    <i class="bi bi-cash"></i>
+                                    Venda
+                                </li>
+                                <li>
+                                    <i class="bi bi-shuffle"></i>
+                                    Troque
+                                </li>
+                                <li>
+                                    <i class="bi bi-steam"></i>
+                                    Compare
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destaques" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">Destaques</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/destaques/faca1.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3>M9 Bayonet - Doppler Sapphire</h3>
+                        <p>$ 11.073</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/destaques/faca2.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3>Butterfly Knife - Doppler Ruby</h3>
+                        <p>$ 11.588</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/destaques/faca3.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3>Karambit - Gamma Doppler Emerald</h3>
+                        <p>$ 12.955</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skins" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">Skins</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-skins">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#awp" class="fw-bold nav-link active">AWP</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#ak-47" class="fw-bold nav-link">AK-47</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#m4a1-s" class="fw-bold nav-link">M4A1-S</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#knife" class="fw-bold nav-link">Faca</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#glove" class="fw-bold nav-link">Luva</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="awp">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/skins/awp/awp1.webp" alt="Skin de AWP">
+                                        <h5 class="fw-bold">Dragon Lore</h5>
+                                        <p>$ 11,607.39</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/skins/awp/awp2.webp" alt="Skin de AWP">
+                                        <h5 class="fw-bold">Medusa</h5>
+                                        <p>$ 5,170.77</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="ak-47">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/skins/ak/ak1.webp" alt="Skin de AK-47">
+                                        <h5 class="fw-bold">Neon Revolution</h5>
+                                        <p>$ 55.84</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/skins/ak/ak2.webp" alt="Skin de AK-47">
+                                        <h5 class="fw-bold">Vulcan</h5>
+                                        <p>$ 792.80</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="m4a1-s">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/skins/m4a1/m4a11.webp" alt="Skin de M4A1-S">
+                                        <h5 class="fw-bold">Golden Coil</h5>
+                                        <p>$ 151.28</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/skins/m4a1/m4a12.webp" alt="Skin de M4A1-S">
+                                        <h5 class="fw-bold">Hyper Beast</h5>
+                                        <p>$ 117.11</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="knife">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/skins/knife/knife1.webp" alt="Skin de Faca">
+                                        <h5 class="fw-bold">Marble Fade (Falchion Knife)</h5>
+                                        <p>$ 288.23</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/skins/knife/knife2.webp" alt="Skin de Faca">
+                                        <h5 class="fw-bold">Tiger Tooth (Shadow Daggers)</h5>
+                                        <p>$ 179.52</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="glove">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/skins/glove/glove1.webp" alt="Skin de Luva">
+                                        <h5 class="fw-bold">Pandora's Box (Sport Gloves)</h5>
+                                        <p>$ 58,695.98</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/skins/glove/glove2.webp" alt="Skin de Luva">
+                                        <h5 class="fw-bold">Crimson Kimono (Specialist Gloves)</h5>
+                                        <p>$ 13,810.81</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Seu email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-twitter text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-telegram text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
