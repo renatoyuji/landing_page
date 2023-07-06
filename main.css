@@ -57,3 +57,20 @@ li {
     text-decoration: none;
 }
 
+@media (max-width: 767px) {
+    .w-75 {
+        width: 100%!important;
+    }
+
+    #sobre h2 {
+        padding-top: 16px;
+    }
+
+    .pt-5 {
+        padding-top: 30px!important;
+    }
+
+    .pb-5 {
+        padding-bottom: 12px!important;
+    }
+}
